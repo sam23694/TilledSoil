@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TerrainDefs>
+
+	<TerrainDef Name="TS_TerrainBase" Abstract="True">
+		<EdgeType>FadeRough</EdgeType>
+		<RenderPrecedence>335</RenderPrecedence>
+		<designationCategory>Floors</designationCategory>
+		<constructEffect>ConstructDirt</constructEffect>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
+		<TakeFootprints>True</TakeFootprints>
+	</TerrainDef>
+
+	<TerrainDef ParentName="TS_TerrainBase">
+		<defName>Dirt</defName>
+		<label>soil</label>
+		<Description>Standard soil. Tastes like dirt.</Description>
+		<texturePath>Terrain/Surfaces/Soil</texturePath>
+		<PathCost>2</PathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<WorkToMake>350</WorkToMake>
+		</statBases>
+		<Fertility>1.0</Fertility>
+		<terrainAffordanceNeeded>SmoothHard</terrainAffordanceNeeded>
+		<researchPrerequisites><li>terrainRehab</li></researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef ParentName="TS_TerrainBase">
+		<defName>SoilTilled</defName>
+		<label>tilled soil</label>
+		<Description>Tilled soil, for planting crops properly.</Description>
+		<texturePath>SoilTilled</texturePath>
+		<PathCost>5</PathCost>
+		<layerable>true</layerable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<WorkToMake>85</WorkToMake>
+		</statBases>
+		<Fertility>2.0</Fertility>
+		<avoidWander>true</avoidWander>
+		<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+	</TerrainDef>
+
+</TerrainDefs>

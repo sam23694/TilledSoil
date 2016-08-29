@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResearchProjectDefs>
+
+	<ResearchProjectDef>
+		<defName>terrainRehab</defName>
+		<label>Terrain Rehabilitation</label>
+		<description>Allows you to correctly layer dirt on smooth stone and other terrains to make underground greenhouses.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites></prerequisites>
+	</ResearchProjectDef>
+
+</ResearchProjectDefs>
