@@ -24,7 +24,7 @@
 		<PathCost>2</PathCost>
 		<statBases>
 			<Beauty>-1</Beauty>
-			<WorkToMake>350</WorkToMake>
+			<WorkToBuild>350</WorkToBuild>
 		</statBases>
 		<Fertility>1.0</Fertility>
 		<terrainAffordanceNeeded>SmoothHard</terrainAffordanceNeeded>
@@ -40,7 +40,7 @@
 		<layerable>true</layerable>
 		<statBases>
 			<Beauty>0</Beauty>
-			<WorkToMake>85</WorkToMake>
+			<WorkToBuild>85</WorkToBuild>
 		</statBases>
 		<Fertility>2.0</Fertility>
 		<avoidWander>true</avoidWander>
