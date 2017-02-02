@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Dirt.label>土壤</Dirt.label>
+  <Dirt.description>標準土壤。嘗起來像泥土。</Dirt.description>
+
+  <SoilTilled.label>耕種土壤</SoilTilled.label>
+  <SoilTilled.description>耕作的土壤，用於種植農作物。</SoilTilled.description>
+
+
+</LanguageData>
