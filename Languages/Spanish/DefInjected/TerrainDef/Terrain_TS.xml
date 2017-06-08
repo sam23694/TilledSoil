@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Dirt.label>Tierra</Dirt.label>
+	<Dirt.description>Tierra estándar. Sabe a tierra.</Dirt.description>
+
+	<SoilTilled.label>Tierra labrada</SoilTilled.label>
+	<SoilTilled.description>Suelo labrado, para plantar cultivos adecuadamente.</SoilTilled.description>
+
+</LanguageData>
