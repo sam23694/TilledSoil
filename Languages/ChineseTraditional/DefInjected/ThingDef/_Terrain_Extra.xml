@@ -5,9 +5,11 @@
 
   <Dirt_Blueprint.label>土壤（藍圖）</Dirt_Blueprint.label>
   <Dirt_Frame.label>土壤（建造中）</Dirt_Frame.label>
+  <Dirt_Frame.description>建造中的地板。</Dirt_Frame.description>
 
-  <SoilTilled_Blueprint.label>耕種土壤（藍圖）</SoilTilled_Blueprint.label>
-  <SoilTilled_Frame.label>耕種土壤（建造中）</SoilTilled_Frame.label>
+  <GT_SoilTilled_Blueprint.label>耕種土壤（藍圖）</GT_SoilTilled_Blueprint.label>
+  <GT_SoilTilled_Frame.label>耕種土壤（建造中）</GT_SoilTilled_Frame.label>
+  <GT_SoilTilled_Frame.description>建造中的地板。</GT_SoilTilled_Frame.description>
 
 
 </LanguageData>

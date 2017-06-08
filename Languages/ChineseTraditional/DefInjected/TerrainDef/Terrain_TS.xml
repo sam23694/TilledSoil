@@ -4,6 +4,12 @@
   <Dirt.label>土壤</Dirt.label>
   <Dirt.description>標準土壤。嘗起來像泥土。</Dirt.description>
 
+  <GT_SoilTilled.label>耕種土壤</GT_SoilTilled.label>
+  <GT_SoilTilled.description>耕作的土壤，用於種植農作物。</GT_SoilTilled.description>
+
+
+  <!-- Deprecated -->
+
   <SoilTilled.label>耕種土壤</SoilTilled.label>
   <SoilTilled.description>耕作的土壤，用於種植農作物。</SoilTilled.description>
 
