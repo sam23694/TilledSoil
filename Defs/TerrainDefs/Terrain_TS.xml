@@ -22,6 +22,7 @@
 		<Description>Standard soil. Tastes like dirt.</Description>
 		<texturePath>Terrain/Surfaces/Soil</texturePath>
 		<PathCost>2</PathCost>
+		<EdgeType>FadeRough</EdgeType>
 		<statBases>
 			<Beauty>-1</Beauty>
 			<WorkToBuild>350</WorkToBuild>
@@ -31,8 +32,8 @@
 		<researchPrerequisites><li>terrainRehab</li></researchPrerequisites>
 	</TerrainDef>
 
-	<TerrainDef ParentName="TS_TerrainBase">
-		<defName>SoilTilled</defName>
+	<TerrainDef ParentName="TS_TerrainBase" Name="TS_Tilled">
+		<defName>GT_SoilTilled</defName>
 		<label>tilled soil</label>
 		<Description>Tilled soil, for planting crops properly.</Description>
 		<texturePath>SoilTilled</texturePath>
@@ -45,6 +46,12 @@
 		<Fertility>2.0</Fertility>
 		<avoidWander>true</avoidWander>
 		<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+	</TerrainDef>
+	
+	<!--		Deprecated		-->
+	<TerrainDef ParentName="TS_Tilled">
+		<defName>SoilTilled</defName>
+		<designationCategory></designationCategory>
 	</TerrainDef>
 
 </TerrainDefs>
