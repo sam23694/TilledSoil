@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TerrainDefs>
+<Defs>
 
 	<TerrainDef Name="TS_TerrainBase" Abstract="True">
-		<EdgeType>FadeRough</EdgeType>
-		<RenderPrecedence>335</RenderPrecedence>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>335</renderPrecedence>
 		<designationCategory>Floors</designationCategory>
 		<constructEffect>ConstructDirt</constructEffect>
 		<affordances>
@@ -12,22 +12,22 @@
 			<li>GrowSoil</li>
 			<li>Diggable</li>
 		</affordances>
-		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
-		<TakeFootprints>True</TakeFootprints>
+		<terrainFilthDef>FilthDirt</terrainFilthDef>
+		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
 
 	<TerrainDef ParentName="TS_TerrainBase">
 		<defName>Dirt</defName>
 		<label>soil</label>
-		<Description>Standard soil. Tastes like dirt.</Description>
+		<description>Standard soil. Tastes like dirt.</description>
 		<texturePath>Terrain/Surfaces/Soil</texturePath>
-		<PathCost>2</PathCost>
-		<EdgeType>FadeRough</EdgeType>
+		<pathCost>2</pathCost>
+		<edgeType>FadeRough</edgeType>
 		<statBases>
 			<Beauty>-1</Beauty>
 			<WorkToBuild>350</WorkToBuild>
 		</statBases>
-		<Fertility>1.0</Fertility>
+		<fertility>1.0</fertility>
 		<terrainAffordanceNeeded>SmoothHard</terrainAffordanceNeeded>
 		<researchPrerequisites><li>terrainRehab</li></researchPrerequisites>
 	</TerrainDef>
@@ -35,15 +35,15 @@
 	<TerrainDef ParentName="TS_TerrainBase" Name="TS_Tilled">
 		<defName>GT_SoilTilled</defName>
 		<label>tilled soil</label>
-		<Description>Tilled soil, for planting crops properly.</Description>
+		<description>Tilled soil, for planting crops properly.</description>
 		<texturePath>SoilTilled</texturePath>
-		<PathCost>5</PathCost>
+		<pathCost>5</pathCost>
 		<layerable>true</layerable>
 		<statBases>
 			<Beauty>0</Beauty>
 			<WorkToBuild>85</WorkToBuild>
 		</statBases>
-		<Fertility>2.0</Fertility>
+		<fertility>2.0</fertility>
 		<avoidWander>true</avoidWander>
 		<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
 	</TerrainDef>
@@ -54,4 +54,4 @@
 		<designationCategory></designationCategory>
 	</TerrainDef>
 
-</TerrainDefs>
+</Defs>
