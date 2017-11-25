@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Dirt.label>Ziemia</Dirt.label>
+	<Dirt.description>Standardowa ziemia. Smakuje ziemią.</Dirt.description>
+
+	<SoilTilled.label>Ziemia uprawna</SoilTilled.label>
+	<SoilTilled.description>Ziemia uprawna, do uprawy roślin.</SoilTilled.description>
+
+</LanguageData>
