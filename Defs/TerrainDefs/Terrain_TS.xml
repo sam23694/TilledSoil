@@ -12,7 +12,7 @@
 			<li>GrowSoil</li>
 			<li>Diggable</li>
 		</affordances>
-		<terrainFilthDef>FilthDirt</terrainFilthDef>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
 
@@ -28,7 +28,7 @@
 			<WorkToBuild>350</WorkToBuild>
 		</statBases>
 		<fertility>1.0</fertility>
-		<terrainAffordanceNeeded>SmoothHard</terrainAffordanceNeeded>
+		<terrainAffordanceNeeded>SmoothableStone</terrainAffordanceNeeded>
 		<researchPrerequisites><li>terrainRehab</li></researchPrerequisites>
 	</TerrainDef>
 
