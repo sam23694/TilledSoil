@@ -8,12 +8,23 @@
 		<constructEffect>ConstructDirt</constructEffect>
 		<affordances>
 			<li>Light</li>
+			<li>Medium</li>
 			<li>Heavy</li>
 			<li>GrowSoil</li>
 			<li>Diggable</li>
 		</affordances>
-		<terrainFilthDef>FilthDirt</terrainFilthDef>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>dirt</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>DirtInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
 	</TerrainDef>
 
 	<TerrainDef ParentName="TS_TerrainBase">
@@ -25,11 +36,14 @@
 		<edgeType>FadeRough</edgeType>
 		<statBases>
 			<Beauty>-1</Beauty>
+			<Cleanliness>-1</Cleanliness>
 			<WorkToBuild>350</WorkToBuild>
 		</statBases>
 		<fertility>1.0</fertility>
-		<terrainAffordanceNeeded>SmoothHard</terrainAffordanceNeeded>
-		<researchPrerequisites><li>terrainRehab</li></researchPrerequisites>
+		<terrainAffordanceNeeded>SmoothableStone</terrainAffordanceNeeded>
+		<researchPrerequisites>
+			<li>terrainRehab</li>
+		</researchPrerequisites>
 	</TerrainDef>
 
 	<TerrainDef ParentName="TS_TerrainBase" Name="TS_Tilled">
@@ -47,11 +61,11 @@
 		<avoidWander>true</avoidWander>
 		<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
 	</TerrainDef>
-	
+
 	<!--		Deprecated		-->
 	<TerrainDef ParentName="TS_Tilled">
 		<defName>SoilTilled</defName>
-		<designationCategory></designationCategory>
+		<designationCategory/>
 	</TerrainDef>
 
 </Defs>
