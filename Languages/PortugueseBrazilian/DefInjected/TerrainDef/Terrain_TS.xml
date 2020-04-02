@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Dirt.label>solo</Dirt.label>
+  <Dirt.description>Solo padrão. Tem gosto de terra.</Dirt.description>
+  <Dirt.tools.0.label>terra</Dirt.tools.0.label>
+
+  <GT_SoilTilled.label>Terra aráda</GT_SoilTilled.label>
+  <GT_SoilTilled.description>Solo arádo, para plantar vegetais adequadamente.</GT_SoilTilled.description>
+  <GT_SoilTilled.tools.0.label>terra</GT_SoilTilled.tools.0.label>
+
+
+  <!-- Deprecated -->
+
+  <SoilTilled.label>solo arádo</SoilTilled.label>
+  <SoilTilled.description>Solo arádo, para plantar vegetais adequadamente.</SoilTilled.description>
+  <SoilTilled.tools.0.label>terra</SoilTilled.tools.0.label>
+
+
+</LanguageData>
