@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+  <Dirt.label>земляное покрытие</Dirt.label>
+  <Dirt.description>Стандартный грунт. Выглядит как обычная грязь.</Dirt.description>
+
+
+  <GT_SoilTilled.label>грядки</GT_SoilTilled.label>
+  <GT_SoilTilled.description>Грядки, для равномерной посадки растений.</GT_SoilTilled.description>
+
+
+</LanguageData>

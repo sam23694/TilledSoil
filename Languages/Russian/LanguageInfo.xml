@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageInfo>
+  <friendlyNameNative>Russian</friendlyNameNative>
+  <friendlyNameEnglish>Russian</friendlyNameEnglish>
+  <canBeTiny>true</canBeTiny>
+  <languageWorkerClass>LanguageWorker_Russian</languageWorkerClass>
+  <credits>
+    <li Class="CreditRecord_Role">
+      <roleKey>Translator</roleKey>
+      <creditee>xProtosx</creditee>
+    </li>
+  </credits>
+</LanguageInfo>
