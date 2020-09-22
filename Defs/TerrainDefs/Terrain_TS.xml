@@ -15,6 +15,9 @@
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<takeFootprints>True</takeFootprints>
+		<filthAcceptanceMask>
+                        <li>Unnatural</li>
+                </filthAcceptanceMask>
 		<tools>
 			<li>
 				<label>dirt</label>
