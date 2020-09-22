@@ -8,6 +8,6 @@
   <li>1.1</li>
   <li>1.2</li>
 </supportedVersions>
-
-		<description>A simple mod that adds tilled soil, the constructable version of rich soil.</description>
+<packageId>Sam.RimWorldMods.TilledSoil</packageId>
+<description>A simple mod that adds tilled soil, the constructable version of rich soil.</description>
 </ModMetaData>
