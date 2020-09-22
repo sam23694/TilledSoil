@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-	<ModMetaData>
-		<name>Tilled Soil</name>
-		<author>Sam</author>
-		<url>https://ludeon.com/forums/index.php?topic=5509.0</url>
-		<targetVersion>1.0.2059</targetVersion>
+<ModMetaData>
+<name>Tilled Soil</name>
+<author>Sam</author>
+<url>https://ludeon.com/forums/index.php?topic=5509.0</url>
+<supportedVersions>
+  <li>1.0</li>
+  <li>1.1</li>
+  <li>1.2</li>
+</supportedVersions>
+
 		<description>A simple mod that adds tilled soil, the constructable version of rich soil.</description>
 </ModMetaData>
