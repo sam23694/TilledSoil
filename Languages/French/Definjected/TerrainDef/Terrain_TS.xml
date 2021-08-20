@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Dirt.label>sol</Dirt.label>
+  <Dirt.description>Sol standard. A le goût de terre.</Dirt.description>
+
+  <GT_SoilTilled.label>sol labouré</GT_SoilTilled.label>
+  <GT_SoilTilled.description>Sol labouré, pour bien planter les cultures.</GT_SoilTilled.description>
+
+</LanguageData>
